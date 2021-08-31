@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+.clear {
+    margin: 20px auto 20px auto;
+    display: block;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+
 .container {
     display: grid;
     height: 500px;
@@ -14,4 +22,8 @@
 
 .box {
     border: solid black 1px;
+}
+
+.boxhover {
+    background-color: blue;
 }
